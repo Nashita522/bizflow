@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local development and backup files
+.agents/
+.claude/
+.cursor/
+.devin/
+audit-report.json
+src/app/*.backup
+src/app/*.backup-*
+src/app/*.before-*
+src/app/globals.css.before-*
+src/components/*.backup-*
